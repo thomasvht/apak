@@ -8,60 +8,40 @@
 <div class="container">
   <h1 class="mt-2">Wie zijn wij?</h1>
   <p>
-    APAK is reeds meer dan 35 jaar gespecialiseerd in het afwerken van stukken in diverse metalen zoals aluminium, messing, koper, roestvrij staal, zilver en andere.
-  In samenwerking met onze klanten, kunnen wij diverse afwerkingen toepassen, alsook een optimale prijs kwaliteit nastreven.
-  Met de laatste nieuwe software kunnen wij de productie en lopende stock perfect opvolgen.
+    APAK is reeds meer dan 35 jaar gespecialiseerd in het afwerken van stukken in diverse metalen zoals aluminium,
+    messing, koper, roestvrij staal, zilver en andere.
+    In samenwerking met onze klanten, kunnen wij diverse afwerkingen toepassen, alsook een optimale prijs kwaliteit
+    nastreven.
+    Met de laatste nieuwe software kunnen wij de productie en lopende stock perfect opvolgen.
   </p>
 
   <h1>Wat doen we?</h1>
-  <div class="d-flex w-100 justify-content-around">
-    <div class="card w-20 bg-dark">
-      <img class="card-img-top" src="/assets/images/b.jpg" alt="Koper staven">
-      <div class="card-body">
-        <p class="card-text">Koper afwerking.</p>
+  <div id="apakCarousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div id="image1" class="carousel-item active">
+        <img class="d-block w-100" src="/assets/images/copper-washers.jpg" alt="Copper washers">
       </div>
-    </div>
-    <div class="card w-20 bg-dark">
-      <img class="card-img-top" src="/assets/images/c.jpg" alt="Aluminium staven">
-      <div class="card-body">
-        <p class="card-text">Aluminium afwerking.</p>
+      <div id="image2" class="carousel-item">
+        <img class="d-block w-100" src="/assets/images/tubbing.jpg" alt="Copper tubbing">
       </div>
-    </div>
-    <div class="card w-20 bg-dark">
-      <img class="card-img-top" src="/assets/images/f.jpg" alt="Messingen">
-      <div class="card-body">
-        <p class="card-text">Tal van messingen.</p>
+      <div id="image3" class="carousel-item">
+        <img class="d-block w-100" src="/assets/images/painting.jpg" alt="Painting">
       </div>
     </div>
   </div>
-  <div class="d-flex w-100 justify-content-around mt-4">
-    <div class="card w-20 bg-dark">
-      <img class="card-img-top" src="/assets/images/a.jpg" alt="Alle producten">
-      <div class="card-body">
-        <p class="card-text">Overzicht van onze producten.</p>
-      </div>
-    </div>
-    <div class="card w-20 bg-dark">
-      <img class="card-img-top" src="/assets/images/e.jpg" alt="Stukken spuiten">
-      <div class="card-body">
-        <p class="card-text">Spuiten van diverse stukken.</p>
-      </div>
-    </div>
-  </div> 
+
   <h1 class="mt-4">Contact</h1>
-  <div class="d-flex justify-content-between">
-    <div class="d-flex">
+  <div class="row align-items-center mb-4">
+    <div class="col">
       <fa-icon class="p-1" [icon]="faEnvelope"></fa-icon>
       <a class="p-1" href="mailto:info@apak.be" target="_blank"> info@apak.be</a>
     </div>
-    <div class="d-flex">
+    <div class="col">
       <fa-icon class="p-1" [icon]="faPhone"></fa-icon>
       <a class="p-1" href="tel:056420001" target="_blank"> 056/42.00.01</a>
     </div>
-    <div class="d-flex">
+    <div class="col">
       <fa-icon class="p-1" [icon]="faMapMarkerAlt"></fa-icon>
       <a class="p-1" href="http://maps.google.com/?q=apak" target="_blank"> Menenstraat 306, 8560 Wevelgem</a>
     </div>
   </div>
-</div>
-

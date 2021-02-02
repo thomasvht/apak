@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import { faMapMarkerAlt, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { timer } from 'rxjs';
 
 @Component({
   selector: 'app-root',
@@ -12,4 +13,7 @@ export class AppComponent {
   faEnvelope = faEnvelope;
   faPhone = faPhone;
   faMapMarkerAlt = faMapMarkerAlt;
+
+  constructor() {
+  }
 }
