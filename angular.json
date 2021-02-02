@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "apak"
+  "defaultProject": "apak",
+  "cli": {
+    "analytics": "2d3d90de-8ac5-44f9-8720-ad24fd889264"
+  }
 }

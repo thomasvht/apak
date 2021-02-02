@@ -1,0 +1,14 @@
+:host {
+    a {
+        text-decoration: none;
+        color: #D1D3D4;
+        
+        &:hover {
+                color: #3B7AB7;
+        }
+    }
+    .banner {
+        background-color: #FFBF20;
+        height: 100px;
+    }
+}

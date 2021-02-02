@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files 
+** dark: #1E1E1F, blue: #3B7AB7, gray: #525252, orange: #FFBF20, white: #D1D3D4
+*/
+body {
+    background-color: #1E1E1F;
+    color: #D1D3D4;
+    font-family: Roboto 'Arial' sans-serif;
+    
+    h1 {
+        color: #FFBF20;
+    }
+}

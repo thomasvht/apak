@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
+import { faMapMarkerAlt, faPhone } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'apak';
+  faEnvelope = faEnvelope;
+  faPhone = faPhone;
+  faMapMarkerAlt = faMapMarkerAlt;
 }
