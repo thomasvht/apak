@@ -4,11 +4,77 @@
 body {
     background-color: #1E1E1F;
     color: #D1D3D4;
-    font-family: Roboto 'Arial' sans-serif;
+    font-family: 'Roboto', sans-serif;
     
     h1, h2 {
         color: #FFBF20;
     }
 }
-/* Importing Bootstrap SCSS file. */
-// @import '~bootstrap/scss/bootstrap';
+
+// Alignment helper classes.
+
+.flex {
+    display: flex;
+    &-wrap {
+        flex-wrap: wrap;
+    }
+}
+.justify-content {
+    &--space-between {
+        justify-content: space-between;
+    }
+}
+.full-width {
+    width: 100%;
+}
+.full-height {
+    height: 100%;
+}
+.align {
+    &-self {
+        &-center {
+            align-self: center;
+        }
+    }
+    &-items {
+        &-center {
+            align-items: center;
+        }
+    }
+}
+
+
+// paddings and marings
+.padding {
+    padding: 3em;
+    &-x--small {
+        padding: 1em;
+    }
+    &-small {
+        padding: 2em;
+    }
+    &-large {
+        padding: 4em;
+    }
+    &-x--large {
+        padding: 5em;
+    }
+    &-right {
+        padding-right: 3em;
+    }
+    &-left {
+        padding-left: 3em;
+    }
+}
+
+.margin {
+    &-top {
+        margin-top: 2em;
+        &-x--small {
+            margin-top: .5em;
+        }
+        &-small {
+            margin-top: 1em;
+        }
+    }
+}
