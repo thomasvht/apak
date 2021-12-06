@@ -2,13 +2,14 @@
   "name": "apak",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
+    "ng": "nx",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "update": "ng update"
+    "update": "ng update",
+    "postinstall": "node ./decorate-angular-cli.js"
   },
   "private": true,
   "dependencies": {
@@ -36,6 +37,10 @@
     "@angular-devkit/build-angular": "^13.0.4",
     "@angular/cli": "^13.0.4",
     "@angular/compiler-cli": "^13.0.3",
+    "@nrwl/cli": "^13.2.3",
+    "@nrwl/nx-cloud": "^12.5.4",
+    "@nrwl/tao": "^13.2.3",
+    "@nrwl/workspace": "^13.2.3",
     "@types/jasmine": "^3.10.2",
     "@types/node": "^16.11.11",
     "codelyzer": "^6.0.2",

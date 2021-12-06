@@ -1,0 +1,25 @@
+{
+  "npmScope": "apak",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": "*",
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    ".eslintrc.json": "*",
+    "nx.json": "*"
+  },
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/nx-cloud",
+      "options": {
+        "cacheableOperations": [
+          "build",
+          "lint",
+          "test",
+          "e2e"
+        ],
+        "accessToken": "Zjc5ZjBkNGYtNTI1MC00MTZkLThhMzEtOWI2OGU0ZGE3YmExfHJlYWQtd3JpdGU="
+      }
+    }
+  }
+}
